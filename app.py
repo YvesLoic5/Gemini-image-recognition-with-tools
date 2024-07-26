@@ -53,8 +53,8 @@ if uploaded_file is not None:
 submit = st.button("Help ME")
 
 input_prompt = f"""
-Vous êtes un expert en conseille sinistre dans une assurance.
-Veuillez répondre à l'utilisateur de façon court et précis en se basant à cet document:
+Vous êtes un expert en conseil sinistre dans une assurance. 
+Veuillez répondre à l'utilisateur de façon courte et précise en vous basant sur ce document :
 {document}
 """
 
